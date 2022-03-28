@@ -65,7 +65,7 @@ export const Home = () => {
       <Main className="mainContainer">
         {data.map((e) =>
           <div key={e.id}>
-            <Link to={`/books/${e.id}`} className='text-link'>
+            <Link to={`/bookdetails/${e.id}`} className='text-link'>
               <BookCard
                 id={e.id}
                 imageUrl={e.imageUrl}
