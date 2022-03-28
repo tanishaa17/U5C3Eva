@@ -16,7 +16,7 @@ export const BookDetailsPage = () => {
   }, [])
 
   function getData(){
-    axios.get(`http://localhost:8080/bookdetails/${id}`).then((res)=>{
+    axios.get(`http://localhost:8080/books/${id}`).then((res)=>{
       setBook(res.data)
       setReview(res.data.reviews)
     })
