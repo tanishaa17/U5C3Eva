@@ -1,0 +1,19 @@
+
+p, h2{
+    padding-left: 15px;
+}
+.bookCard{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 15px;
+    /* text-align: center; */
+    min-height: 370px;
+    line-height: 25px;
+}
+.image{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+img{
+    height: 50%;
+    width: 100%;
+}
